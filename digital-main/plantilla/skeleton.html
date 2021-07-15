@@ -57,8 +57,8 @@
                     <div class="row py-5 align-items-center">
                         <div class="col-md-6 col-lg-7">
                             <img loading="lazy" class="img-fluid bg-light d-md-none" src="img/relacion-1x1.png" alt="describa la imagen" />
-                            <img loading="lazy" class="img-fluid bg-light d-none d-md-block d-lg-none" src="img/relacion-4x3.png" alt="describa la imagen" />
-                            <img loading="lazy" class="img-fluid bg-light d-none d-lg-block" src="img/relacion-16x9.png" alt="describa la imagen" />
+                            <img loading="lazy" class="img-fluid bg-light d-none d-md-block d-lg-none" src="img/mapa.jpg" alt="describa la imagen" />
+                            <img loading="lazy" class="img-fluid bg-light d-none d-lg-block" src="img/mapa.jpg" alt="describa la imagen" />
                         </div>
                         <div class="col-md-6 col-lg-5 p-4">
                             <h3><i class="bi bi-emoji-sunglasses"></i> Este subtítulo tiene que referir a un gráfico figurativo</h3>
@@ -80,8 +80,8 @@
                     <div class="row py-5 align-items-center">
                         <div class="col-md-6 col-lg-7 order-md-last">
                             <svg enable-background="new 0 0 665 375" version="1.1" viewBox="0 0 665 375" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                                <image transform="matrix(.5 0 0 .5 0 0)" width="1330" height="750" overflow="visible" xlink:href="img/relacion-16x9.png"></image>
-                                <circle class="st0" cx="332.5" cy="187.5" r="125" />
+                                <image transform="matrix(.5 0 0 .5 0 0)" width="1330" height="750" overflow="visible" xlink:href="img/monitos.svg"></image>
+                        
                             </svg>
                         </div>
                         <div class="col-md-6 col-lg-5 p-4 order-md-first">
@@ -205,12 +205,12 @@
             var nuestroGrafico = new Chart(ctx, {
                 type: "line",
                 data: {
-                    labels: ["Red", "Blue", "Yellow", "Green", "Cyan", "Magenta"],
+                    labels: ["1987", "1990", "1992", "1994", "1996", "1998", "2000", "2003", "2006", "2009", "2011", "2013", "2015", "2017"],
                     datasets: [
                         {
                             label: "# of Votes",
-                            data: [12, 19, 3, 5, 2, 3],
-                            backgroundColor: ["#FF0000", "#0000FF", "#FFFF00", "#00FF00", "#00FFFF", "#FF00FF"],
+                            data: [56.2, 57.2, 54.8, 56.4, 54.9, 55.5, 52.8, 51.5, 47.3, 47, 46, 45.8, 44.4, 44.4],
+                            backgroundColor: ["#F86383"],
                             borderWidth: 1,
                         },
                     ],
